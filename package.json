@@ -1,17 +1,12 @@
 {
-  "name": "atrireactnewpackage",
+  "name": "reactnewpackage",
   "version": "1.0.0",
   "description": "Make my react npm counter package",
   "main": "dist/react-package.cjs.js",
-  "module": "dist/react-package.esm.js",
-  "exports": {
-    "import": "dist/react-package.esm.js",
-    "require": "dist/react-package.cjs.js"
-  },
   "type": "module",
   "scripts": {
     "test": "jest",
-    "build": "rollup -c"
+      "build": "rollup -c"
   },
   "repository": {
     "type": "git",
